@@ -1,0 +1,6 @@
+[alias]
+	co = checkout
+	root = rev-parse --show-toplevel
+	tree = log --all --graph --oneline
+	undo = reset --soft HEAD~1
+ 
